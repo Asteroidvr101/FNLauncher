@@ -1,5 +1,6 @@
 name: Build FNLauncher
 on: [push]
+workflow_dispatch
 jobs:
   build:
     runs-on: windows-latest
