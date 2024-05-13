@@ -43,8 +43,8 @@ func main() {
       log.Fatal(e)
    }
  
-   launcherPath := userDir + "\\.fnlauncher\\7.40\\FortniteGame\\Binaries\\Win64\\FortniteLauncher.exe"
-   eacPath := userDir + "\\.fnlauncher\\7.40\\FortniteGame\\Binaries\\Win64\\FortniteClient-Win64-Shipping_EAC.exe"
+   launcherPath := userDir + "\\Desktop\\Updates\\FortniteGame\\Binaries\\Win64\\FortniteLauncher.exe"
+   eacPath := userDir + "\\Desktop\\Updates\\FortniteGame\\Binaries\\Win64\\FortniteClient-Win64-Shipping_EAC.exe"
    cmd := exec.Command(eacPath, "-noeac", "-fromfl=be", "-fltoken=f7b9gah4h5380d10f721dd6a")
    launcher := exec.Command(launcherPath)
  
