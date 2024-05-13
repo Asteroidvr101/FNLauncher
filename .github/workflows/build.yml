@@ -16,4 +16,3 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: FNLauncher
-          path: D:\a\FNLauncher\FNLauncher\main.exe
